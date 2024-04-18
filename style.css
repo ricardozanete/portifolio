@@ -277,7 +277,7 @@ i {
 
 #btn__topo {
   position: fixed;
-  right: 15px;
+  right: 5px;
   bottom: 20px;
   cursor: pointer;
 
@@ -316,8 +316,11 @@ i {
     align-items: center;
   }
   .sobre__foto__perfil {
-    width: 50%;
+    width: 60%;
     margin: 20px auto;
+  }
+  .sobre__foto__perfil > i {
+    font-size: 1.2rem;
   }
   .sobre__mim {
     margin: auto 0;
@@ -348,6 +351,7 @@ i {
     justify-content: space-around;
   }
   .card {
+    margin: 20px 0;
     box-shadow: 0 8px 6px -6px rgb(51, 57, 63),
       0 6px 6px -6 rgba (7, 17, 27, 0.06);
     border-radius: 4px;
@@ -360,6 +364,9 @@ i {
       box-shadow: 0 4px 8px 0 rgba(58, 140, 151, 0.925),
         0 0 6px 0 rgba(7, 17, 27, 0.196);
     }
+  }
+
+  @media screen and (min-width: 768px) {
   }
 
   .btn-mobile {
