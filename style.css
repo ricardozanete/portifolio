@@ -311,16 +311,16 @@ i {
   }
   .sobre {
     display: flex;
-    justify-content: center;
-    flex-direction: column;
+    justify-content: space-between;
+    flex-wrap: wrap;
     align-items: center;
   }
   .sobre__foto__perfil {
     width: 60%;
     margin: 20px auto;
   }
-  .sobre__foto__perfil > i {
-    font-size: 1.2rem;
+  .sobre__foto__perfil i {
+    font-size: 1.6rem;
   }
   .sobre__mim {
     margin: auto 0;
