@@ -358,11 +358,11 @@ i {
     overflow: hidden;
     padding: 15px;
     transition: all ease-in-out 0.3s;
+    box-shadow: 0 4px 8px 0 rgba(58, 140, 151, 0.925),
+      0 0 6px 0 rgba(7, 17, 27, 0.196);
     &:hover {
       border-radius: 10px;
       transform: translateY(-8px) scale(1.01);
-      box-shadow: 0 4px 8px 0 rgba(58, 140, 151, 0.925),
-        0 0 6px 0 rgba(7, 17, 27, 0.196);
     }
   }
 
